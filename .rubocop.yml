@@ -1,0 +1,60 @@
+require:
+  - rubocop-rails
+  - rubocop-performance
+  - rubocop-rspec
+
+AllCops:
+  Exclude:
+    - "db/**/*"
+    - "config/**/*"
+    - "node_modules/**/*"
+    - "lib/spree_gem/**/*"
+  TargetRubyVersion: 3.2.1
+  NewCops: enable
+
+Metrics/MethodLength:
+  Max: 20
+
+Gemspec/OrderedDependencies:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 100
+
+Lint/AssignmentInCondition:
+  Enabled: false
+
+Layout/DotPosition:
+  EnforcedStyle: trailing
+
+Layout/EndOfLine:
+  EnforcedStyle: lf
+
+Rails/DynamicFindBy:
+  Whitelist:
+    - find_by_permalink
+    - find_by_url
+
+Style/AccessModifierDeclarations:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/DoubleNegation:
+  Enabled: false
+
+Style/Lambda:
+  EnforcedStyle: literal
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Naming/MethodParameterName:
+  MinNameLength: 2
+
+Rails/BelongsTo:
+  Enabled: false
+
+RedundantPresenceValidationOnBelongsTo:
+  Enabled: false
