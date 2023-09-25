@@ -26,7 +26,7 @@ class OpenAIChat
 end
 
 # rubocop:disable Metrics/LineLength
-paragraphs = [
+paragraphs = [ # rubocop:disable Lint/UselessAssignment
   "Pizza, ein kulinarisches Geschenk aus Italien, ist weltweit bekannt für ihre köstliche Kombination aus knusprigem Teig, schmelzendem Käse und vielfältigen Belägen.",
   "Unsere Margherita-Pizza wird traditionell mit frischem Tomatensugo, Mozzarella und Basilikum hergestellt. Es wird gesagt, dass sie nach der Königin Margherita von Savoyen benannt wurde, wobei die Farben Rot, Weiß und Grün die italienische Flagge repräsentieren.",
   "Für die Fleischliebhaber gibt es die Pizza Salami, reichlich belegt mit pikanter Salami, Tomatensugo und Mozzarella. Manchmal fügen wir auch ein paar Chiliflocken hinzu, um etwas Wärme zu erzeugen.",
