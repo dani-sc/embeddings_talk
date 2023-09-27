@@ -6,7 +6,7 @@ require "json"
 ELEVEN_LABS_API_KEY = "33181304b3d038e9990fa6719b21b178"
 VOICE_ID = "2EiwWnXFnvU5JabPnv8n"
 
-input_text = "Ich, eine Pizza Funghi, bestehe aus saftigen Champignons, Tomatensugo und Mozzarella."
+input_text = "Auf mir liegen Pilze, so rund und fein, mit Tomatensugo und Mozzarella, das muss so sein. Manchmal gibt's Knoblauch dazu, oh wie fein, oder Trüffelöl für einen Extra-Geschmackskick, ganz allein."
 
 headers = {
   "Accept" => "audio/mpeg",
